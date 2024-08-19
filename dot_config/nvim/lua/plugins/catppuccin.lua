@@ -6,6 +6,7 @@ return {
 	config = function()
 		require("catppuccin").setup({
 			flavour = "mocha",
+      transparent_background = true,
 		--	color_overrides = {
 		--		mocha = {
 		--			rosewater = "#ffd7d9",
