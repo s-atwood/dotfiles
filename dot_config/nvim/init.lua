@@ -19,6 +19,7 @@ vim.opt.number = true
 
 -- points to neovim specific python venv (needed for none-ls pylint)
 -- check if interpreter set `:echo has('python3')`
+-- required packages: debugpy, pynvim
 vim.g.python3_host_prog = "~/.config/nvim/.venv/bin/python3.12"
 
 require("vim-options")
