@@ -143,9 +143,6 @@ alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 # chpwd_functions+=("auto_activate_venv")
 ###################################################################
 
-# shortcut to open this (.zshrc) file in vs code
-alias zs='code ~/.zshrc'
-
 # alias to run python script in ~/code/python/sqnotes
 alias sq='python ~/code/python/sqnotes/sqnotes.py'
 
@@ -153,7 +150,7 @@ alias sq='python ~/code/python/sqnotes/sqnotes.py'
 alias ls='colorls'
 
 # alias for cmd-notes app:
-alias cmd='python /Users/shawn/code/python/projects/CmdKeeper/main.py'
+alias cmd='/Users/shawn/code/python/projects/CmdKeeper/cmd.sh'
 
 # alias for neovim
 alias n="/opt/homebrew/bin/nvim"
