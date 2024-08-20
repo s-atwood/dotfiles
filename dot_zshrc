@@ -150,7 +150,12 @@ alias sq='python ~/code/python/sqnotes/sqnotes.py'
 alias ls='colorls'
 
 # alias for cmd-notes app:
-alias cmd='/Users/shawn/code/python/projects/CmdKeeper/cmd.sh'
+# alias cmd='source /Users/shawn/code/python/projects/CmdKeeper/cmd.sh'
+function cmd() {
+  source /Users/shawn/code/python/projects/CmdKeeper/venv/bin/activate
+
+  python /Users/shawn/code/python/projects/CmdKeeper/main.py "$@"
+}
 
 # alias for neovim
 alias n="/opt/homebrew/bin/nvim"
